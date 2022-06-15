@@ -1,0 +1,10 @@
+name: TestPlugin
+description: Does very interesting things!
+author: Tyloon1e
+version: 1.1
+main: me.tyloon1e.testplugin.TestPlugin
+api-version: 1.18
+website: voxolity.com
+commands:
+  testplugin:
+    aliases: test
