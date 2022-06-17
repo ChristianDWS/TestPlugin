@@ -8,3 +8,7 @@ website: voxolity.com
 commands:
   testplugin:
     aliases: test
+  testversion:
+    aliases: tver
+  testsun:
+    aliases: tsun

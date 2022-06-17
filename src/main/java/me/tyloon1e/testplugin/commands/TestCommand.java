@@ -9,7 +9,7 @@ import org.bukkit.entity.Player;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class TestPluginCommand implements CommandExecutor {
+public class TestCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
@@ -19,7 +19,7 @@ public class TestPluginCommand implements CommandExecutor {
                 return true;
             }
 
-            if (!player.hasPermission("testplugin.command")) {
+            if (!player.hasPermission("testplugin.command.testplugin")) {
                 player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cYou don't have permission, naughty!"));
                 return true;
             }
