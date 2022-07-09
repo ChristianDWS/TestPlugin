@@ -28,6 +28,7 @@ public class VersionCommand implements CommandExecutor {
 
             sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&eThe server is running " + Bukkit.getServer().getBukkitVersion()));
             sender.sendMessage("The result of key 'test-option' is " + customConfig.getBoolean("test-option"));
+            return true;
         }
 
         return false;

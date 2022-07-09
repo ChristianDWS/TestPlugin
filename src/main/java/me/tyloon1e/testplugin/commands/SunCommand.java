@@ -22,9 +22,10 @@ public class SunCommand implements CommandExecutor {
             }
 
             player.getWorld().setStorm(false);
-            player.getWorld().setThundering(false);
+            player.getWorld().setThundering(false); // unclear if needed
 
             Bukkit.getServer().broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&e&lThe sun is out!"));
+            return true;
         }
 
         return false;
